@@ -1,0 +1,16 @@
+PODS:
+  - RhProcessedDataViewModel (0.1.0)
+
+DEPENDENCIES:
+  - RhProcessedDataViewModel (from `../`)
+
+EXTERNAL SOURCES:
+  RhProcessedDataViewModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RhProcessedDataViewModel: 1c6e8fd0ca2cb9f3b8b75a6937e992b46066b058
+
+PODFILE CHECKSUM: 956a92d644cefbe2d2d083dd8cac621b5d288405
+
+COCOAPODS: 1.7.5
