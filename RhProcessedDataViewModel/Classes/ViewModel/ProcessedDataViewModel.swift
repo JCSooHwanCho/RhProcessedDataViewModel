@@ -21,7 +21,7 @@ public class ProcessedDataViewModel<Element>: ProcessedDataViewModelType {
             self.loadData()
         }
     }
-
+    public init() { }
     // MARK: - Private Property
     private var disposeBag = DisposeBag()
     private let lock = NSRecursiveLock()
