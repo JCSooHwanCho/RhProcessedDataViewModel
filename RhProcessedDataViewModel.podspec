@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'RhProcessedDataViewModel'
   s.version          = '0.1.0'
   s.summary          = 'Getting data from Network, Process and Propagate'
-
+  s.swift_version = ['4.0', '4.2','5.0','5.1']
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RhProcessedDataViewModel/Classes/**/*'
-  s.ios.dependency 'Rxswift', '~>5'
-  s.ios.dependency 'RxRelay', '~5'
+  s.ios.dependency 'RxSwift', '~> 5'
+  s.ios.dependency 'RxRelay', '~> 5'
 
 end
