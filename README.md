@@ -4,6 +4,9 @@
 [![Version](https://img.shields.io/cocoapods/v/RhProcessedDataViewModel.svg?style=flat)](https://cocoapods.org/pods/RhProcessedDataViewModel)
 [![License](https://img.shields.io/cocoapods/l/RhProcessedDataViewModel.svg?style=flat)](https://cocoapods.org/pods/RhProcessedDataViewModel)
 [![Platform](https://img.shields.io/cocoapods/p/RhProcessedDataViewModel.svg?style=flat)](https://cocoapods.org/pods/RhProcessedDataViewModel)
+# Module Structure
+
+![ModuleStructure](/img/ModuleStructure.png)
 
 ## How To Use
     - Override 'ProcessingCommand' Class. This Class Has a business Logic
