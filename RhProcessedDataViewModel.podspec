@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RhProcessedDataViewModel'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Getting data from Network, Process and Propagate'
   s.swift_version = ['4.0', '4.2','5.0','5.1']
 # This description is used to generate tags and improve search results.
