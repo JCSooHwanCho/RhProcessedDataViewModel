@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RhProcessedDataViewModel_Tests' do
+  pod 'RhProcessedDataViewModel', :path => '../'
+  
+  
+end
