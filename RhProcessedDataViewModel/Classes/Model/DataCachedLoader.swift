@@ -11,7 +11,7 @@ import RxSwift
 
 // 요청을 캐싱해서, 반복적인 요청에 대한 네트워크 요청을 줄이고
 // 빠른 응답을 하도록 하는 DataLoader
-public class DataCachedLoader: DataLoader {
+class DataCachedLoader: DataLoader {
     public override func loadData (withURL url: URL) -> Observable<Data> {
         let cache = DataLoaderCache.shared
 

@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 
 // 지정된 URL에 대해서 Data를 가져오는 Loader
-public class DataLoader: DataLoaderType {
+class DataLoader: DataLoaderType {
 
     // MARK: - Loading Method
     public func loadData(withURL url: URL) -> Observable<Data> {
