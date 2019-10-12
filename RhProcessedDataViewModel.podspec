@@ -24,21 +24,15 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/JCSooHwanCho/RhProcessedDataViewModel'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JCSooHwanCho' => 'chh0107@gmail.com' }
   s.source           = { :git => 'https://github.com/JCSooHwanCho/RhProcessedDataViewModel.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RhProcessedDataViewModel/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'RhProcessedDataViewModel' => ['RhProcessedDataViewModel/Assets/*.png']
-  # }
+  s.ios.dependency 'Rxswift', '~>5'
+  s.ios.dependency 'RxRelay', '~5'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
