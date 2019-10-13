@@ -1,6 +1,0 @@
-framework module RhProcessedDataViewModel {
-  umbrella header "RhProcessedDataViewModel-umbrella.h"
-
-  export *
-  module * { export * }
-}
