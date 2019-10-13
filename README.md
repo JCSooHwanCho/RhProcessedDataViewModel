@@ -4,13 +4,26 @@
 [![Version](https://img.shields.io/cocoapods/v/RhProcessedDataViewModel.svg?style=flat)](https://cocoapods.org/pods/RhProcessedDataViewModel)
 [![License](https://img.shields.io/cocoapods/l/RhProcessedDataViewModel.svg?style=flat)](https://cocoapods.org/pods/RhProcessedDataViewModel)
 [![Platform](https://img.shields.io/cocoapods/p/RhProcessedDataViewModel.svg?style=flat)](https://cocoapods.org/pods/RhProcessedDataViewModel)
+
+# Category 
+    Simple MVVM implementation for iOS App
+# Description
+    You can easily make simple application with MVVM. Just Make View and Command, and bind with ViewModel!
+
+# Feature
+    1. Getting data from URL
+    2. Caching data request, reduce networking
+    3. Process Data using command object
+    4. ViewModel with Relay
+    5. Two Relay for item and request result(success, fail)
+     
 # Module Structure
 
 ![ModuleStructure](/img/ModuleStructure.png)
 
 ## How To Use
-    - Override 'ProcessingCommand' Class. This Class Has a business Logic
-    - Make 'ProcessedDataViewModel' Class instance, bind relays
+    - Override 'ProcessingCommand' class. This Class Should have a business logic in 'execute()' method
+    - Make 'ProcessedDataViewModel' class instance, and bind relays
     - provide command to viewModel to load and process data.
 ## Dependency
     - RxSwift (>=5)
